@@ -5,25 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>    
-
-    <link rel="stylesheet" href="{{asset('css/home/reset.css')}}"> <!-- CSS reset -->
-    <link rel="stylesheet" href="{{asset('css/home/style.css')}}"> <!-- Resource style -->
-    <script src="{{asset('js/modernizr.js')}}"></script> <!-- Modernizr -->
-
+    <title>2ez | Dota2 Bet</title>    
+    
     <style>
      
     </style>
 </head>
 <body>
-
-    <div class="cd-background-wrapper">
-        <figure class="cd-floating-background">
-            <img src="{{asset('images/radTree.jpg')}}" alt="image-1">
-            <img src="{{asset('images/jug.png')}}" alt="image-2">
-            <img src="{{asset('images/lycan2.png')}}" alt="image-3">
-        </figure>
-    </div>
+    @include('pages/land')
     <!-- <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -69,7 +58,5 @@
             </div>
         </div>
     </nav> -->
-    <script src="{{asset('js/jquery-2.1.1.js')}}"></script>
-    <script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
